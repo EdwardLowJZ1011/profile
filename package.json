@@ -1,0 +1,38 @@
+{
+  "name": "low_profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch server server/index.js",
+    "build": "next build",
+    "start": "next start",
+    "populateDb": "node server/fakeDb/populate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@apollo/react-ssr": "^4.0.0",
+    "apollo-boost": "^0.4.7",
+    "apollo-server-express": "^2.10.1",
+    "axios": "^0.21.4",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "mongoose": "^6.0.10",
+    "next": "^11.1.0",
+    "next-with-apollo": "^5.2.1",
+    "nodemon": "^2.0.12",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.38.2",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.51.1"
+  }
+}
